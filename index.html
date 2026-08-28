@@ -33,19 +33,19 @@
         document.documentElement.classList.remove('js');
     }, 2500);
     </script>
-    <link rel="icon" href="images/favicon/favicon.ico?v=20260829i" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png?v=20260829i">
+    <link rel="icon" href="images/favicon/favicon.ico?v=20260829j" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png?v=20260829j">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f7f9">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131417">
     <link rel="canonical" href="https://notonion.github.io/">
 
     <!-- Preload critical resources -->
-    <link rel="preload" href="stylesheet.css?v=20260829i" as="style">
+    <link rel="preload" href="stylesheet.css?v=20260829j" as="style">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
-    <link rel="stylesheet" href="stylesheet.css?v=20260829i">
+    <link rel="stylesheet" href="stylesheet.css?v=20260829j">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -130,7 +130,7 @@
                 <svg class="fa-svg" aria-hidden="true" focusable="false"><use href="#i-envelope"/></svg>
                 <span class="sr-only">Email</span>
             </a>
-            <a href="data/cv.pdf?v=20260829i"
+            <a href="data/cv.pdf?v=20260829j"
                aria-label="Download CV (PDF)"
                target="_blank"
                rel="noopener">
@@ -212,7 +212,7 @@
                 <p>Previously: core search at <strong>Huawei</strong>, open-world game agents at <strong>Tencent AI Lab</strong>, multimodal document and chart understanding at <strong>Alibaba DAMO Academy</strong>. M.Sc. from <strong><a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">NTU</a></strong>, B.Eng. from <strong><a href="https://www.sysu.edu.cn/" target="_blank" rel="noopener">Sun Yat-sen University</a></strong> with <a href="https://openreview.net/profile?id=~Ying_Shen3" target="_blank" rel="noopener">Prof. Ying Shen</a>. Open to collaboration.</p>
             </div>
             <div class="profile-image">
-                <img src="images/mengsha.webp?v=20260829i"
+                <img src="images/mengsha.webp?v=20260829j"
                      alt="Mengsha Liu"
                      width="800" height="800"
                      loading="eager">
@@ -224,6 +224,7 @@
             <div class="news-list-wrap">
                 <ul class="news-list" id="news-list">
                     <li><span class="news-date">2026.08</span> <a href="https://openreview.net/forum?id=Romd50Ce0w" target="_blank" rel="noopener">Declare, Compile, Look</a> accepted to the <em>ECCV 2026</em> Multimodal Digital Agents workshop, selected for a talk.</li>
+                    <li><span class="news-date">2026.05</span> Released <a href="https://arxiv.org/abs/2605.05991" target="_blank" rel="noopener">a technical report</a> on automating the e-commerce search relevance loop with agents.</li>
                     <li><span class="news-date">2025.07</span> Joined <strong>ByteDance</strong> in Singapore as an LLM algorithm engineer, working on agentic search.</li>
                     <li><span class="news-date">2025.06</span> <a href="https://doi.org/10.1007/s00521-025-11260-z" target="_blank" rel="noopener">LTCR</a> published in <em>Neural Computing and Applications</em>.</li>
                     <li><span class="news-date">2025.06</span> Graduated with an M.Sc. in Signal Processing and Machine Learning from <strong>NTU Singapore</strong>.</li>
@@ -241,9 +242,111 @@
         <section id="research">
             <h2>Publications</h2>
             <div class="research-content">
+
+                <article class="research-paper">
+                    <div class="paper-media">
+                        <img src="images/declare-compile-look.webp?v=20260829j" width="2000" height="1231"
+                             alt="Declare, Compile, Look pipeline — plan a typed FigureSpec, compile the geometry deterministically, emit figures, and repair by patching the spec"
+                             loading="lazy">
+                    </div>
+                    <div class="paper-content">
+                        <h3 class="paper-title">
+                            <a href="https://openreview.net/forum?id=Romd50Ce0w" target="_blank" rel="noopener">
+                                <svg class="fa-svg" aria-hidden="true" focusable="false"><use href="#i-file-lines"/></svg> Declare, Compile, Look:<br>Coordinate-Free Layout Generation with Vision-in-the-Loop Repair
+                            </a>
+                        </h3>
+                        <p class="paper-authors">
+                            Guian Fang, <strong>Mengsha Liu</strong>, Mike Zheng Shou
+                        </p>
+                        <p class="paper-venue"><em>ECCV Workshop (MDA)</em>, 2026<span class="paper-award">Talk</span></p>
+                        <div class="paper-links">
+                            <a href="https://openreview.net/pdf?id=Romd50Ce0w" target="_blank" rel="noopener">Paper</a>
+                            <button type="button" class="bib-copy" aria-label="Copy BibTeX to clipboard"><span class="bib-label">BibTeX</span></button>
+                        </div>
+                        <script type="text/plain" data-bibtex>
+@inproceedings{fang2026declare,
+  title     = {Declare, Compile, Look: Coordinate-Free Layout Generation with Vision-in-the-Loop Repair},
+  author    = {Guian Fang and Mengsha Liu and Mike Zheng Shou},
+  booktitle = {ECCV 2026 Multimodal Digital Agents Workshop},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=Romd50Ce0w},
+}
+                        </script>
+                    </div>
+                </article>
+
                 <article class="research-paper highlight">
                     <div class="paper-media">
-                        <img src="images/ChartThinker.webp?v=20260829i"
+                        <img src="images/casedriven.webp?v=20260829j" width="1254" height="652"
+                             alt="Case-driven multi-agent framework: a User Agent mines bad cases with an Annotator, an Optimizer pipeline turns them into data and model fixes, and a shared harness supplies tools, skills and human interaction"
+                             loading="lazy">
+                    </div>
+                    <div class="paper-content">
+                        <h3 class="paper-title">
+                            <a href="https://arxiv.org/abs/2605.05991" target="_blank" rel="noopener">
+                                <svg class="fa-svg" aria-hidden="true" focusable="false"><use href="#i-file-lines"/></svg> A Case-Driven Multi-Agent Framework<br>for E-Commerce Search Relevance
+                            </a>
+                        </h3>
+                        <p class="paper-authors">
+                            Global E-Commerce Search Relevance Team, ByteDance
+                        </p>
+                        <p class="paper-venue"><em>Technical Report</em>, 2026</p>
+                        <p class="paper-adoption">Replaces the human roles in the relevance loop with agents: a User Agent surfaces bad cases through conversation, an Annotator Agent labels them over multiple turns, and an Optimizer Agent diagnoses and resolves them &mdash; all on a shared retrieval-augmented harness.</p>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/abs/2605.05991" target="_blank" rel="noopener">Report</a>
+                            <button type="button" class="bib-copy" aria-label="Copy BibTeX to clipboard"><span class="bib-label">BibTeX</span></button>
+                        </div>
+                        <script type="text/plain" data-bibtex>
+@misc{ecomrelevance2026casedriven,
+  title         = {A Case-Driven Multi-Agent Framework for E-Commerce Search Relevance},
+  author        = {{Global E-Commerce Search Relevance Team}},
+  year          = {2026},
+  eprint        = {2605.05991},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2605.05991},
+}
+                        </script>
+                    </div>
+                </article>
+
+                <article class="research-paper">
+                    <div class="paper-media">
+                        <img src="images/ltcr.webp?v=20260829j" width="1239" height="411"
+                             alt="Salience-aware fake news detection model — two attention-based LSTM branches, the first re-weighting its input through a Gaussian-filtered attention layer before the features are aggregated"
+                             loading="lazy">
+                    </div>
+                    <div class="paper-content">
+                        <h3 class="paper-title">
+                            <a href="https://doi.org/10.1007/s00521-025-11260-z" target="_blank" rel="noopener">
+                                <svg class="fa-svg" aria-hidden="true" focusable="false"><use href="#i-file-lines"/></svg> LTCR:<br>Long-Text Chinese Rumor Detection Dataset
+                            </a>
+                        </h3>
+                        <p class="paper-authors">
+                            <strong>Mengsha Liu</strong>, Ziyang Ma, Guian Fang, Ying Shen
+                        </p>
+                        <p class="paper-venue"><em>Neural Computing and Applications</em>, 2025</p>
+                        <p class="paper-adoption">A long-form Chinese misinformation benchmark built around COVID-19 rumours, released with a salience-aware detection model.</p>
+                        <div class="paper-links">
+                            <a href="https://doi.org/10.1007/s00521-025-11260-z" target="_blank" rel="noopener">Paper</a>
+                            <a href="https://arxiv.org/abs/2306.07201" target="_blank" rel="noopener">arXiv</a>
+                            <button type="button" class="bib-copy" aria-label="Copy BibTeX to clipboard"><span class="bib-label">BibTeX</span></button>
+                        </div>
+                        <script type="text/plain" data-bibtex>
+@article{ma2025ltcr,
+  title   = {LTCR: Long-Text Chinese Rumor detection dataset},
+  author  = {Liu, Mengsha and Ma, Ziyang and Fang, Guian and Shen, Ying},
+  journal = {Neural Computing and Applications},
+  year    = {2025},
+  doi     = {10.1007/s00521-025-11260-z},
+}
+                        </script>
+                    </div>
+                </article>
+
+                <article class="research-paper highlight">
+                    <div class="paper-media">
+                        <img src="images/ChartThinker.webp?v=20260829j"
                              alt="ChartThinker overview — context retrieval feeds a chain-of-thought pipeline that turns a chart into a grounded summary"
                              loading="lazy">
                     </div>
@@ -277,72 +380,6 @@
                         </script>
                     </div>
                 </article>
-
-                <article class="research-paper">
-                    <div class="paper-media">
-                        <img src="images/declare-compile-look.webp?v=20260829i" width="2000" height="1231"
-                             alt="Declare, Compile, Look pipeline — plan a typed FigureSpec, compile the geometry deterministically, emit figures, and repair by patching the spec"
-                             loading="lazy">
-                    </div>
-                    <div class="paper-content">
-                        <h3 class="paper-title">
-                            <a href="https://openreview.net/forum?id=Romd50Ce0w" target="_blank" rel="noopener">
-                                <svg class="fa-svg" aria-hidden="true" focusable="false"><use href="#i-file-lines"/></svg> Declare, Compile, Look:<br>Coordinate-Free Layout Generation with Vision-in-the-Loop Repair
-                            </a>
-                        </h3>
-                        <p class="paper-authors">
-                            Guian Fang, <strong>Mengsha Liu</strong>, Mike Zheng Shou
-                        </p>
-                        <p class="paper-venue"><em>ECCV Workshop (MDA)</em>, 2026<span class="paper-award">Talk</span></p>
-                        <div class="paper-links">
-                            <a href="https://openreview.net/pdf?id=Romd50Ce0w" target="_blank" rel="noopener">Paper</a>
-                            <button type="button" class="bib-copy" aria-label="Copy BibTeX to clipboard"><span class="bib-label">BibTeX</span></button>
-                        </div>
-                        <script type="text/plain" data-bibtex>
-@inproceedings{fang2026declare,
-  title     = {Declare, Compile, Look: Coordinate-Free Layout Generation with Vision-in-the-Loop Repair},
-  author    = {Guian Fang and Mengsha Liu and Mike Zheng Shou},
-  booktitle = {ECCV 2026 Multimodal Digital Agents Workshop},
-  year      = {2026},
-  url       = {https://openreview.net/forum?id=Romd50Ce0w},
-}
-                        </script>
-                    </div>
-                </article>
-
-                <article class="research-paper">
-                    <div class="paper-media">
-                        <img src="images/ltcr.webp?v=20260829i" width="1239" height="411"
-                             alt="Salience-aware fake news detection model — two attention-based LSTM branches, the first re-weighting its input through a Gaussian-filtered attention layer before the features are aggregated"
-                             loading="lazy">
-                    </div>
-                    <div class="paper-content">
-                        <h3 class="paper-title">
-                            <a href="https://doi.org/10.1007/s00521-025-11260-z" target="_blank" rel="noopener">
-                                <svg class="fa-svg" aria-hidden="true" focusable="false"><use href="#i-file-lines"/></svg> LTCR:<br>Long-Text Chinese Rumor Detection Dataset
-                            </a>
-                        </h3>
-                        <p class="paper-authors">
-                            <strong>Mengsha Liu</strong>, Ziyang Ma, Guian Fang, Ying Shen
-                        </p>
-                        <p class="paper-venue"><em>Neural Computing and Applications</em>, 2025</p>
-                        <p class="paper-adoption">A long-form Chinese misinformation benchmark built around COVID-19 rumours, released with a salience-aware detection model.</p>
-                        <div class="paper-links">
-                            <a href="https://doi.org/10.1007/s00521-025-11260-z" target="_blank" rel="noopener">Paper</a>
-                            <a href="https://arxiv.org/abs/2306.07201" target="_blank" rel="noopener">arXiv</a>
-                            <button type="button" class="bib-copy" aria-label="Copy BibTeX to clipboard"><span class="bib-label">BibTeX</span></button>
-                        </div>
-                        <script type="text/plain" data-bibtex>
-@article{ma2025ltcr,
-  title   = {LTCR: Long-Text Chinese Rumor detection dataset},
-  author  = {Liu, Mengsha and Ma, Ziyang and Fang, Guian and Shen, Ying},
-  journal = {Neural Computing and Applications},
-  year    = {2025},
-  doi     = {10.1007/s00521-025-11260-z},
-}
-                        </script>
-                    </div>
-                </article>
             </div>
         </section>
 
@@ -354,7 +391,7 @@
                 <li class="xp-item">
                     <span class="xp-year">2025</span>
                     <div class="xp-card">
-                        <img class="xp-logo" src="images/logo-bytedance.webp?v=20260829i" alt="ByteDance logo" width="72" height="72" loading="lazy">
+                        <img class="xp-logo" src="images/logo-bytedance.webp?v=20260829j" alt="ByteDance logo" width="72" height="72" loading="lazy">
                         <div class="xp-body">
                             <div class="xp-head">
                                 <h3 class="xp-org">ByteDance</h3>
@@ -372,7 +409,7 @@
                 <li class="xp-item">
                     <span class="xp-year">2025</span>
                     <div class="xp-card">
-                        <img class="xp-logo" src="images/logo-huawei.webp?v=20260829i" alt="Huawei logo" width="72" height="72" loading="lazy">
+                        <img class="xp-logo" src="images/logo-huawei.webp?v=20260829j" alt="Huawei logo" width="72" height="72" loading="lazy">
                         <div class="xp-body">
                             <div class="xp-head">
                                 <h3 class="xp-org">Huawei</h3>
@@ -389,7 +426,7 @@
                 <li class="xp-item">
                     <span class="xp-year">2024</span>
                     <div class="xp-card">
-                        <img class="xp-logo" src="images/logo-tencent.webp?v=20260829i" alt="Tencent logo" width="72" height="72" loading="lazy">
+                        <img class="xp-logo" src="images/logo-tencent.webp?v=20260829j" alt="Tencent logo" width="72" height="72" loading="lazy">
                         <div class="xp-body">
                             <div class="xp-head">
                                 <h3 class="xp-org">Tencent AI Lab</h3>
@@ -407,7 +444,7 @@
                 <li class="xp-item">
                     <span class="xp-year">2023</span>
                     <div class="xp-card">
-                        <img class="xp-logo" src="images/logo-alibaba.webp?v=20260829i" alt="Alibaba logo" width="72" height="72" loading="lazy">
+                        <img class="xp-logo" src="images/logo-alibaba.webp?v=20260829j" alt="Alibaba logo" width="72" height="72" loading="lazy">
                         <div class="xp-body">
                             <div class="xp-head">
                                 <h3 class="xp-org">Alibaba DAMO Academy</h3>
@@ -428,7 +465,7 @@
                 <li class="xp-item">
                     <span class="xp-year">2024</span>
                     <div class="xp-card">
-                        <img class="xp-logo" src="images/logo-ntu.webp?v=20260829i" alt="Nanyang Technological University crest" width="72" height="72" loading="lazy">
+                        <img class="xp-logo" src="images/logo-ntu.webp?v=20260829j" alt="Nanyang Technological University crest" width="72" height="72" loading="lazy">
                         <div class="xp-body">
                             <div class="xp-head">
                                 <h3 class="xp-org">Nanyang Technological University</h3>
@@ -442,7 +479,7 @@
                 <li class="xp-item">
                     <span class="xp-year">2020</span>
                     <div class="xp-card">
-                        <img class="xp-logo" src="images/logo-sysu.webp?v=20260829i" alt="Sun Yat-sen University crest" width="72" height="72" loading="lazy">
+                        <img class="xp-logo" src="images/logo-sysu.webp?v=20260829j" alt="Sun Yat-sen University crest" width="72" height="72" loading="lazy">
                         <div class="xp-body">
                             <div class="xp-head">
                                 <h3 class="xp-org">Sun Yat-sen University</h3>
@@ -476,6 +513,6 @@
             <p>Design adapted from <a href="https://github.com/Enderfga/enderfga.github.io" target="_blank" rel="noopener">this template</a>.</p>
         </footer>
     </main>
-    <script src="app.js?v=20260829i" defer></script>
+    <script src="app.js?v=20260829j" defer></script>
 </body>
 </html>
