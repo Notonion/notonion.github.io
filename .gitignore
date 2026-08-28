@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+cache/
+tasks/
+_preview*.html
+_p.html
